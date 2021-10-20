@@ -69,7 +69,7 @@ const TrendChat = () => {
     }, []);
     useEffect(() => {
         const div = messagesRef.current;
-        div && div.scrollTo(0, div.scrollHeight);
+        div && messagesRef.current.scrollTo(0, messagesRef.current.scrollHeight);
     });
 
     return (
