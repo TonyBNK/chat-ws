@@ -2,7 +2,7 @@ export type Nullable<T> = T | null;
 
 export type MessageType = {
     message: string
-    photo: Nullable<string>
+    photo: string
     userId: number
     userName: string
 }
